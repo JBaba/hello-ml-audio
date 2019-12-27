@@ -1,0 +1,12 @@
+version: "3"
+services:
+  mlapi:
+    image: fastai-docker:cpu
+    container_name: mlapi
+    command: tail -f /dev/null
+    stdin_open: true
+    tty: true
+    ports:
+      - "5001:5000"
+    volumes:
+      - .:/code
