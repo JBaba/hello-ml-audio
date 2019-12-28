@@ -4,7 +4,9 @@ Detect My Voice App - Machine Learning Tutorial Using FastAI and FastAI Audio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Run Fast-Ai in Docker container
+![App](app.png?raw=true "App")
+
+# Docker container setup
 
 ## Step-1: Run React App into Docker container
 
@@ -13,6 +15,8 @@ Run Docker React app,
 \$ docker-compose up -d --build
 
 ## Step-2: Run Docker-FastAI container
+
+comming soon..
 
 # Run Locally
 
